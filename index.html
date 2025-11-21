@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Chandan Kumar - Professional Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body class="text-gray-100">
+
+    <!-- Header & Navigation -->
+<header class="sticky top-0 z-50 bg-primary shadow-2xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+             <!-- Logo/Name -->
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+                <h1 class="text-2xl font-extrabold text-secondary">CHANDAN CHAURASIYA </h1>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-10">
+                <a href="#Home" class="nav-link font-medium text-gray-400 hover:text-secondary transition duration-300">Home</a>
+                <a href="#about" class="nav-link font-medium text-gray-400 hover:text-secondary transition duration-300">About</a>
+                <a href="Chandan-cv.pdf" download="Chandan-cv.pdf" class="text-base font-medium text-gray-400 hover:text-secondary transition duration-300">Resume</a>
+                <a href="#skills" class="nav-link font-medium text-gray-400 hover:text-secondary transition duration-300">Skills</a>
+                <a href="#projects" class="nav-link font-medium text-gray-400 hover:text-secondary transition duration-300">Projects</a>
+                <a href="#contact" class="nav-link font-medium text-gray-400 hover:text-secondary transition duration-300">Contact</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-button" type="button" class="bg-primary rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-secondary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary">
+                    <!-- Heroicon Menu -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                     </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-dark-bg/95">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-secondary hover:bg-primary">About</a>
+            <a href="Chandan-cv.pdf" download="Chandan-cv.pdf" class="text-base font-medium text-gray-400 hover:text-secondary transition duration-300">Resume</a>
+            <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-secondary hover:bg-primary">Skills</a>
+            <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-secondary hover:bg-primary">Projects</a>
+            <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-secondary hover:bg-primary">Contact</a>
+        </div>
+    </div>
+</header>
+
+<!-- Home Section -->
+<section id="Home" class="pt-24 pb-32 h-screen bg-dark-bg text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+        <div class="text-center md:text-left mb-10 md:mb-0">
+            
+            <p class="header w-full text-4xl sm:text-5xl font-extrabold font-mono text-accent">
+                <span class="text-gray-300 ">Hi, </span>i'm CHANDAN CHAURASIYA
+            </p>
+            
+            <div class="h-12 sm:h-16 flex items-center mb-4">
+                <h1 class="text-3xl sm:text-4xl font-extrabold leading-none">
+                    <span class="text-gray-300">I am a </span>
+                    <span id="typewriter-text" class="text-secondary inline-block"></span>
+                </h1>
+            </div>
+            
+            <p class="text-lg text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
+                Focusing on clean code, responsive design, and scalable architectures to deliver meaningful, high-performance web applications.
+            </p>
+            <a href="#projects" class="inline-block px-8 py-3 mr-3 border border-transparent text-base font-medium rounded-lg text-dark-bg bg-accent hover:bg-amber-400 transition duration-300 shadow-lg transform hover:scale-105">
+                Projects
+            </a>
+            <a href="Chandan-cv.pdf" target="_blank" class="inline-block px-8 py-3 border border-transparent text-base font-medium rounded-lg text-dark-bg bg-accent hover:bg-amber-400 transition duration-300 shadow-lg transform hover:scale-105" rel="noopener noreferrer">
+                Resume
+            </a>
+        </div>
+        <div class="md:w-1/3">
+            <img src="ck4.png" alt="Developer Illustration" class="img w-full h-auto rounded-full shadow-2xl border-4 border-secondary/50 px-4">
+        </div>
+    </div>
+</section>  
+
+<!-- About Section -->
+<section class="about-section " id="about">
+    <div class="about-header">
+        <h2 class="text-4xl font-extrabold text-secondary text-center mb-4">About Me</h2>
+        <div class="w-20 h-1 bg-accent mx-auto mb-8 rounded-full"></div>
+    </div>
+    
+    <div class="bg-dark-bg p-8 md:p-12 rounded-xl shadow-2xl border-t-4 border-secondary about-grid-container">
+        <h1 class="about-title">Hi, I’m Chandan Kumar 🧑‍💻 Full Stack Developer</h1>
+        <p class="about-sub">I’m a <strong>B.Tech Computer Science</strong> student at <strong>Amrapali University, Haldwani, Uttarakhand</strong> (Batch <strong>2022 – 2026</strong>), passionate about <strong>full-stack web development</strong>, building scalable applications, and solving real-world problems.</p>
+        <div class="about-grid max-w-7xl">
+        <!-- Left Column -->
+        <div class="about-left">
+          <div class="about-block">
+            <h3><span class="icon text-4xl">🎓</span>Education</h3>
+            <p>
+              <span class="label">B.Tech in Computer Science</span><br /> Amrapali University, Haldwani, Uttarakhand <br />
+              <span class="muted">2022 – 2026</span>
+            </p>
+            <p style="margin-top: 10px;">
+              <span class="label">Senior Secondary & Secondary</span> <br/> D.P+2 High School, East Champaran, Bihar<br />
+              <span class="muted">Built a strong foundation in learning, discipline, and perseverance.</span>
+            </p>
+          </div>
+
+          <div class="about-block" style="margin-top: 14px;">
+            <h3><span class="icon">💻</span>Technical Interests</h3>
+            <ul>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Full-Stack Web Development</span>
+              </li>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Building scalable and efficient web applications</span>
+              </li>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Improving user experience (UX)</span>
+              </li>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Solving real-world problems using technology</span>
+              </li>
+            </ul>
+            <div style="margin-top: 8px;">
+              <span class="pill">Full Stack</span>
+              <span class="pill">Scalable Apps</span>
+              <span class="pill">User Experience</span>
+            </div>
+          </div>
+
+          <div class="about-block" style="margin-top: 14px;">
+            <h3><span class="icon">📍</span>Location & Opportunities</h3>
+            <p>
+              I'm based in <strong>East Champaran, Bihar</strong> and always excited
+              to connect, collaborate, and explore new opportunities in the tech
+              world.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="about-right">
+          <div class="about-block mb-6 h-[250px]">
+            <h3><span class="icon">🖥️</span>Experience</h3>
+            <p>
+              <span class="label">Web Development Intern – CodSoft</span><br />
+              <span class="muted">August 2024 – November 2024</span>
+            </p>
+            <p style="margin-top: 6px;">
+              Collaborated on responsive web solutions and worked on
+              deadline-driven projects, improving teamwork and practical development
+              skills.
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3><span class="icon">✨</span>Beyond Coding</h3>
+            <ul>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Enjoy problem-solving challenges</span>
+              </li>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Blogging about tech insights</span>
+              </li>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Photography and capturing meaningful moments</span>
+              </li>
+              <li>
+                <span class="bullet-dot"></span>
+                <span>Playing chess and planning strategies</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="py-20 bg-dark-bg">
+    <div class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-extrabold text-secondary text-center mb-4">Core Competencies</h2>
+        <div class="w-20 h-1 bg-accent mx-auto mb-12 rounded-full"></div>
+        <!-- Cards Container -->
+        <div id="skills-container" class="flex px-4 gap-6">
+            <div id="frontend-card" class="skill-card bg-primary p-8 rounded-xl shadow-2xl border-t-4 border-secondary flex-shrink-0 w-80 sm:w-96 snap-center hover:shadow-secondary/30 transition duration-300">
+                <h3 class="text-3xl font-bold text-white mb-4 flex items-center">
+                    <svg class="w-7 h-7 mr-3 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    Frontend
+                </h3>
+                <p class="text-gray-400 mb-6 border-b border-gray-700 pb-4">
+                    Building intuitive and highly responsive user interfaces.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-chip">React.js</span>
+                    <span class="skill-chip">Next.js</span>
+                    <span class="skill-chip">Tailwind CSS</span>
+                    <span class="skill-chip">JavaScript</span>
+                </div>
+            </div>
+            <!-- Skill Card 2: Backend & Logic -->
+            <div id="backend-card" class="skill-card bg-primary p-8 rounded-xl shadow-2xl border-t-4 border-accent flex-shrink-0 w-80 sm:w-96 snap-center hover:shadow-accent/30 transition duration-300">
+                <h3 class="text-3xl font-bold text-white mb-4 flex items-center">
+                    <svg class="w-7 h-7 mr-3 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.01 12.01 0 002.944 12c0 2.894.61 5.688 1.782 8.127l-1.637 1.637a.75.75 0 001.06 1.06l1.638-1.638A12.01 12.01 0 0012 21.056c2.894 0 5.688-.61 8.127-1.782l1.637 1.637a.75.75 0 001.06-1.06l-1.638-1.638A12.01 12.01 0 0021.056 12a12.01 12.01 0 00-3.04-8.618z"></path></svg>
+                    Backend & Data
+                </h3>
+                <p class="text-gray-400 mb-6 border-b border-gray-700 pb-4">
+                    Designing scalable APIs and managing robust relational and NoSQL databases.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-chip">Node.js</span>
+                    <span class="skill-chip">Express.js</span>
+                    <span class="skill-chip">MongoDB</span>
+                    <span class="skill-chip">JAVA</span>
+                </div>
+            </div>
+            <!-- Skill Card 3: Tools & DevOps -->
+            <div id="tools-card" class="skill-card bg-primary p-8 rounded-xl shadow-2xl border-t-4 border-accent flex-shrink-0 w-80 sm:w-96 snap-center hover:shadow-accent/30 transition duration-300">
+                <h3 class="text-3xl font-bold text-white mb-4 flex items-center">
+                    <svg class="w-7 h-7 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.942 3.38.823 2.80 2.385a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.942 1.543-.823 3.38-2.385 2.80a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.942-3.38-.823-2.8-2.385a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.942-1.543.823-3.38 2.385-2.8a1.724 1.724 0 002.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    DevOps & Cloud
+                </h3>
+                <p class="text-gray-400 mb-6 border-b border-gray-700 pb-4">
+                    Managing infrastructure, deployment pipelines, and cloud services for continuous integration.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-chip">Git/GitHub</span>
+                    <span class="skill-chip">Netlify</span>
+                    <span class="skill-chip">Vercel</span>
+                    <span class="skill-chip">Render</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-[#111827]">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-extrabold text-secondary text-center mb-4">Select Work</h2>
+        <div class="w-20 h-1 bg-accent mx-auto mb-12 rounded-full"></div>
+        <div class="space-y-12">
+            <!-- Project 1: E-commerce Platform -->
+            <div class="project-item relative pl-8 md:pl-0">
+                <div class="absolute -left-[10px] top-1.5 h-4 w-4 rounded-full bg-secondary ring-8 ring-[#111827] hidden md:block"></div>
+                <div class="bg-primary p-6 rounded-xl shadow-xl border border-gray-700 hover:border-accent transition duration-500">
+                    <p class="heading text-sm text-accent mb-2 font-mono">2025 | Full-Stack E-commerce</p>
+                    <h3 class="text-3xl font-bold text-white mb-3">Modern E-commerce Platform</h3>
+                    <p class="text-gray-400 mb-4">A high-performance online marketplace featuring secure payment integration (Stripe), real-time inventory management, and a custom content management system (CMS).</p>
+                    
+                    <!-- Technologies Used -->
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs font-semibold inline-block py-1 px-3 uppercase rounded-full text-dark-bg bg-accent">React</span>
+                        <span class="text-xs font-semibold inline-block py-1 px-3 uppercase rounded-full text-dark-bg bg-secondary/80">MongoDB</span>
+                        <span class="text-xs font-semibold inline-block py-1 px-3 uppercase rounded-full text-gray-300 bg-gray-700">Rest API</span>
+                    </div>
+                    <a href="#" class="text-secondary hover:text-black font-medium inline-flex items-center group p-2 border border-yellow-700 rounded-md mr-3 hover:bg-yellow-500 transition-colors duration-200">View Live Demo</a>
+                    <a href="https://github.com/Chandanchaurasiya55/E-Commerce-MERN-Stack-Project" class="text-secondary hover:text-accent font-medium inline-flex items-center group">View Repository
+                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Project 2: Food Order App -->
+            <div class="project-item relative pl-8 md:pl-0">
+                <div class="absolute -left-[10px] top-1.5 h-4 w-4 rounded-full bg-secondary ring-8 ring-[#111827] hidden md:block"></div>
+                <div class="bg-primary p-6 rounded-xl shadow-xl border border-gray-700 hover:border-accent transition duration-500">
+                    <p class="text-sm text-accent mb-2 font-mono">2025 | Food Order App</p>
+                    <h3 class="text-3xl font-bold text-white mb-3">Reel to Meal </h3>
+                    <p class="text-gray-400 mb-4">Reel to Meal is an interactive web application that lets users browse food through engaging short reels, view dish details, and seamlessly place orders. It connects the fun of scrolling videos with a smooth, real-world food ordering experience.</p>
+                    
+                    <!-- Technologies Used -->
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs font-semibold inline-block p-2 px-3 uppercase rounded-full text-dark-bg bg-accent">React</span>
+                        <span class="text-xs font-semibold inline-block p-2 px-3 uppercase rounded-full text-dark-bg bg-secondary/80">Express js</span>
+                        <span class="text-xs font-semibold inline-block p-2 px-3 uppercase rounded-full text-gray-300 bg-gray-700">Rest API</span>
+                    </div>
+                     <a href="https://reeltomeal.vercel.app" target="_blank" rel="noopener noreferrer" class="text-secondary hover:text-black font-medium inline-flex items-center group p-2 border border-yellow-700 rounded-md mr-3 hover:bg-yellow-500 transition-colors duration-200">View Live Demo</a>
+                    <a href="https://github.com/Chandanchaurasiya55/Food-View-Mern-Stack" class="text-secondary hover:text-accent font-medium inline-flex items-center group">
+                        View Repository
+                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Project 2: DevDoseAi ChatBot -->
+            <div class="project-item relative pl-8 md:pl-0">
+                <div class="absolute -left-[10px] top-1.5 h-4 w-4 rounded-full bg-secondary ring-8 ring-[#111827] hidden md:block"></div>
+                <div class="bg-primary p-6 rounded-xl shadow-xl border border-gray-700 hover:border-accent transition duration-500">
+                    <p class="text-sm text-accent mb-2 font-mono">2025 | Real Time AI ChatBot</p>
+                    <h3 class="text-3xl font-bold text-white mb-3">DevDose-AI ChatBot</h3>
+                    <p class="text-gray-400 mb-4">An intelligent web assistant that tracks data streams, explains results, and provides natural-language responses to user prompts in real time.</p>
+                    <!-- Technologies Used -->
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs font-semibold inline-block py-1 px-3 uppercase rounded-full text-dark-bg bg-accent">React</span>
+                        <span class="btn text-xs font-semibold inline-block py-1 px-3 uppercase rounded-full text-dark-bg bg-accent">Tailwind CSS</span>
+                        <span class="text-xs font-semibold inline-block py-1 px-3 uppercase rounded-full text-gray-300 bg-gray-700">Gemini API</span>
+                    </div>
+                     <a href="https://devdoseai.netlify.app" target="_blank" rel="noopener noreferrer" class="text-secondary hover:text-black font-medium inline-flex items-center group p-2 border border-yellow-700 rounded-md mr-3 hover:bg-yellow-500 transition-colors duration-200">View Live Demo</a>
+                    <a href="https://github.com/Chandanchaurasiya55/DevDose-AI" class="text-secondary hover:text-accent font-medium inline-flex items-center group">
+                        View Repository
+                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section-->
+<section id="contact" class="py-20 bg-dark-bg text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-extrabold text-white text-center mb-4">Start a Conversation</h2>
+        <div class="w-20 h-1 bg-accent mx-auto mb-12 rounded-full"></div>
+        <div class="contact grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Contact Details -->
+            <div class="contact-container p-6 rounded-xl bg-primary shadow-2xl border border-gray-700">
+                <p class="text-xl font-semibold mb-6 text-secondary">Ready to collaborate?</p>
+                <div class="space-y-4">
+                    <!-- Email -->
+                    <div class="flex items-start">
+                        <!-- Email Icon -->
+                        <svg class="w-6 h-6 mr-3 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <div>
+                            <p class="font-medium text-gray-300">Email Address</p>
+                            <span id="email-text" class="text-gray-400 hover:text-accent transition duration-200 cursor-pointer" onclick="copyToClipboard('Chandankumar8454230@gmail.com', 'email-text')">Chandankumar8454230@gmail.com</span>
+                        </div>
+                    </div>
+                    <!-- Phone -->
+                    <div class="flex items-start">
+                        <!-- Phone Icon -->
+                        <svg class="w-6 h-6 mr-3 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-12a2 2 0 01-2-2v-2z"></path></svg>
+                        <div>
+                            <p class="font-medium text-gray-300">Phone Number</p>
+                            <span id="phone-text" class="text-gray-400 hover:text-accent transition duration-200 cursor-pointer" onclick="copyToClipboard('+91 123-4567', 'phone-text')">+91 123-4567</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="p-6 rounded-xl bg-primary shadow-2xl border border-gray-700">
+                <form id="contact-form" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300">Name</label>
+                        <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 border border-gray-600 rounded-lg shadow-sm focus:outline-none focus:ring-secondary focus:border-secondary bg-dark-bg text-gray-100" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+                        <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 border border-gray-600 rounded-lg shadow-sm focus:outline-none focus:ring-secondary focus:border-secondary bg-dark-bg text-gray-100" placeholder="yourname@gmail.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="mt-1 block w-full px-3 py-2 border border-gray-600 rounded-lg shadow-sm focus:outline-none focus:ring-secondary focus:border-secondary bg-dark-bg text-gray-100" placeholder="How can I help you?"></textarea>
+                    </div>
+                    <div id="status-message" class="hidden text-sm font-medium"></div>
+                    <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-dark-bg bg-secondary hover:bg-accent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent transition duration-300 transform hover:scale-[1.01]">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary py-8 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500">
+        <p>&copy; 2025 Chandan chaurasiya. All rights reserved. | Designed & developed by Chandan kumar — thanks for visiting ❤️
+</p>
+        <div class="mt-4 flex justify-center space-x-6">
+            <!-- Social Media Links (Placeholders) -->
+            <a href="https://www.linkedin.com/in/chandanchaurasiya-dev" target="_blank" class="text-gray-500 hover:text-secondary transition duration-300">
+                <!-- LinkedIn Icon (Placeholder SVG) -->
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.136-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://github.com/chandanchaurasiya55" target="_blank" class="text-gray-500 hover:text-secondary transition duration-300">
+                <!-- GitHub Icon (Placeholder SVG) -->
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 0c-6.626 0-12 5.373-12 12 0 5.312 3.438 9.805 8.207 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.344.723-4.04-1.609-4.04-1.609-.547-1.387-1.334-1.756-1.334-1.756-1.088-.745.083-.73.083-.73 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.492.998.108-.775.419-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.22-.125-.303-.535-1.524.117-3.176 0 0 1-.322 3.3.493 1.45-.403 2.97-.605 4.5-.612 1.53.007 3.05.209 4.5.612 2.3-.815 3.3-.493 3.3-.493.653 1.652.243 2.873.118 3.176.77.837 1.233 1.91 1.233 3.22 0 4.61-2.802 5.625-5.477 5.924.43.37.823 1.102.823 2.222 0 1.605-.015 2.894-.015 3.284 0 .318.216.69.825.576C20.565 21.808 24 17.318 24 12 24 5.373 18.627 0 12 0z" clip-rule="evenodd"/></svg>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+=======
+    <meta name="description" content="Chandan Chaurasiya's portfolio - Software Engineer skilled in HTML, CSS, JavaScript, Java, and React.">
+    <meta name="keywords" content="Codewithck, Chandan Chaurasiya, Web Developer, Portfolio, HTML, CSS, JavaScript, React, Java, Frontend Developer, Software Engineer">
+    <meta name="author" content="Chandan Chaurasiya">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Codewithck | Chandan Chaurasiya - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="main">
+        <div id="Home">
+           <div id="nav">  
+                <a href="#" class="logo">Portfolio</a> 
+                <nav class="navbar">
+                    <a href="#Home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="CV.pdf">Resume</a>
+                    <a href="#Contact">Contact</a>
+                    <i id="dropdown" class='bx bx-menu'></i>
+                </nav>        
+            </div>
+
+            <div id="home2">
+                <div class="left">
+                    <h3>Hello It's Me</h3>
+                    <h1>Chandan Chaurasiya</h1>
+                    <h2>And i'm <span class="ck"></span></h2>  
+                    <a href="CV.pdf" download class="btn-resume">Resume</a>
+                </div>
+                
+                <div class="right">
+                    <img src="chandan2.jpg" alt="chandan" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <div id="About">
+            <div id="left2">
+                <img src="ck.jpg" alt="chandan" id="img2" loading="lazy">
+            </div>
+
+            <div id="right2">
+                <h2>Hii I'm <span class="chandan"></span></h2>
+                <p id="paraone">I am a dedicated software Engineering Student With Passion For Creating Innovation Digital Solutions. With a Strong Foundation in Programming and a knack for problem-solving, I Specialize in creating robust Software Application that drive efficiency and user Satisfaction.
+                </p>
+                 <h3>Connect me through...</h3>               
+                <div id="btndiv">
+                    <a href="https://www.facebook.com/share/18UY4oqzuJ/" target="_blank"><i class='bx bxl-facebook'></i></a> 
+                    <a href="https://www.instagram.com/chaurasiya_chandan55?igsh=eGkxMnFoM3d3cTRw" target="_blank"><i class='bx bxl-instagram' ></i></a> 
+                    <a href="https://www.linkedin.com/in/chandan-chaurasiya-4535861bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/Chandanchaurasiya55" target="_blank"><i class='bx bxl-github' ></i></a> 
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chandankumar8454230@gmail.com&su=Contact%20via%20Portfolio&body=Hi%20there!" target="_blank"><i class='bx bxs-envelope'></i></a>
+                </div>
+            </div>
+        </div>        
+    
+        <div id="Skills">
+            <div id="skilldesc">
+                <h3>As a passionate Computer Science and Engineering student, I’ve cultivated a diverse skill set across various domains of technology and problem-solving.</h3>
+               
+                <div id="skillpara">
+                    <img src="ck.jpg" alt="chandan" loading="lazy">
+                    <p>My journey has equipped me with a solid foundation in programming languages, web development, and software engineering principles. I thrive on challenges and continuously seek opportunities to expand my knowledge and expertise. With a keen interest in creating innovative solutions, I am dedicated to leveraging my skills to contribute to impactful projects and drive positive change in the tech industry.</p>
+                </div>
+                
+            </div> 
+            <div id="circle2"></div>            
+            <div id="section">
+                <div id="gol"></div>
+                <p>My Expertise / Skills Are... </p>
+            </div>             
+            <div id="moving-text">
+              <div class="con">
+                  <h1>HTML</h1>
+                  <div id="gola"></div>
+                  <h1>CSS</h1>
+                  <div id="gola"></div>
+                  <h1>JAVASCRIPT</h1>
+                  <div id="gola"></div>
+                  <h1>REACT</h1>
+                  <div id="gola"></div>
+                  <h1>JAVA</h1>   
+                  <div id="gola"></div>
+              </div>
+              
+              <div class="con">
+                  <h1>HTML</h1>
+                  <div id="gola"></div>
+                  <h1>CSS</h1>
+                  <div id="gola"></div>
+                  <h1>JAVASCRIPT</h1>
+                  <div id="gola"></div>
+                  <h1>REACT</h1>
+                  <div id="gola"></div>
+                  <h1>JAVA</h1>   
+                  <div id="gola"></div>
+              </div>
+          </div>          
+            <div id="skills">
+              <h4>My Skills</h4>
+              <div class="skills-container">
+                <div class="skill-card">
+                  <div class="skill-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" loading="lazy"></div>
+                  <div class="skill-name">HTML</div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                  </div>
+                  <div class="progress-percent">90%</div>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" loading="lazy"></div>
+                  <div class="skill-name">CSS</div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                  </div>
+                  <div class="progress-percent">85%</div>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy"></div>
+                  <div class="skill-name">JavaScript</div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                  </div>
+                  <div class="progress-percent">80%</div>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon">
+                    <img src="java-original.svg" alt="Java" loading="lazy"></div>
+                  <div class="skill-name">Java</div>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 75%"></div>
+                    </div>
+                    <div class="progress-percent">75%</div>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" loading="lazy">
+                  </div>
+                  <div class="skill-name">React</div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
+                  </div>
+                  <div class="progress-percent">70%</div>
+                </div>
+              </div>
+              
+            </div>          
+            <div id="projects">
+              <h4>My Projects</h4>
+              <div class="projects-container">
+                <div class="project-card">
+                  <div class="project-title">Todo List App</div>
+                  <div class="project-desc">A feature-rich Todo List app with add, delete, and local storage support for persistent tasks.</div>
+                  <a href="https://your-todo-app-link.com" class="view-btn" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                  <div class="project-title">Calculator</div>
+                  <div class="project-desc">A simple and responsive calculator built using HTML, CSS, and JavaScript.</div>
+                  <a href="../calculator/index.html" class="view-btn" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                  <div class="project-title">Login form</div>
+                  <div class="project-desc">A modern and responsive login form with clean UI and smooth validation.</div>
+                  <a href="../Login form/index.html" class="view-btn" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                  <div class="project-title">Bubble Game</div>
+                  <div class="project-desc">A fun and interactive bubble popping game made with HTML, CSS, and JavaScript.</div>
+                  <a href="../Bubble Game/index.html" class="view-btn" target="_blank">View Project</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div id="Contact">
+            <div class="contact-container">
+              <h2>Get in Touch</h2>
+          
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your full name" required />
+                </div>
+          
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="you@example.com" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Feedback</label>
+                  <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+                </div>
+          
+                <button type="submit">Send Message</button>
+              </form>
+          
+              <div class="gmail-option">
+                <p>Prefer Gmail?</p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chandankumar8454230@gmail.com&su=Contact%20via%20Portfolio&body=Hi%20there!" target="_blank">
+                  📧 Send via Gmail
+                </a>
+              </div>
+            </div>
+        </div>
+          
+        <footer class="footer">
+            <div class="footer-container">
+        
+              <!-- Left section -->
+              <div class="footer-section">
+                <h2 class="footer-title">Portfolio</h2>
+              </div>
+        
+              <!-- Center section -->
+              <div class="footer-section">
+                <h3 class="footer-subtitle">Links</h3>
+                <ul class="footer-links">
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Skills">Skills</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#Contact">Contact</a></li>
+                </ul>
+              </div>
+        
+              <!-- Right section -->
+              <div class="footer-section">
+                <h3 class="footer-subtitle">Follow Me</h3>
+                <div class="footer-socials">
+                  <a href="https://github.com/" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+                  </a>
+                  <a href="https://linkedin.com/" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+                  </a>
+                  <a href="mailto:chandankumar8454230@gmail.com"> <img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" alt="Email" />
+                  </a>
+                </div>
+              </div>
+        
+            </div>
+        
+            <p class="footer-thanks">Thanks for visiting! Let's connect.</p>
+            <hr />
+            <p class="footer-bottom">© 2025 Chandan Chaurasiya. All rights reserved.</p>
+        </footer>
+              
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+>>>>>>> 2cf81970c92807afd11d7df90e36e99c173a58ce
+    <script src="script.js"></script>
+</body>
+</html>

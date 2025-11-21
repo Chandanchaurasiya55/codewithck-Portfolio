@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Tailwind configuration for custom colors/theme - Dark Mode Palette
 tailwind.config = {
   theme: {
@@ -151,78 +150,4 @@ function copyToClipboard(textToCopy, elementId) {
     console.error("Could not copy text: ", err);
   }
 }
-=======
 
-
-function Rerite_text(){
-    var typed = new Typed((".ck"),{
-        strings : ["Full Stack Developer","Web Designer", "Ui/Ux Designer"],
-        typeSpeed : 100,
-        backSpeed : 100,
-        backDelay : 1000,
-        loop :true
-    })
-    var typed = new Typed((".chandan"),{
-        strings : ["Chandan Chaurasiya"],
-        typeSpeed : 100,
-        backSpeed : 100,
-        backDelay : 1000,
-        loop :true
-    })
-    
-}
-
-function navbar_active(){
-    const navLinks = document.querySelectorAll('.navbar a');
-
-    navLinks.forEach(link => {
-    link.addEventListener('click', function () {
-    navLinks.forEach(el => el.classList.remove('active-link')); // remove from all
-    this.classList.add('active-link'); // add to clicked one
-  });
-});
-
-}
-
-function FormHandller(){
-    document.addEventListener("DOMContentLoaded", () => {
-        const form = document.getElementById("contact-form");
-      
-        form.addEventListener("submit", function (e) {
-          e.preventDefault();
-      
-          const name = form.name.value.trim();
-          const email = form.email.value.trim();
-          const message = form.message.value.trim();
-      
-          // Basic validation
-          if (!name || !email || !message) {
-            alert("Please fill out all fields before submitting.");
-            return;
-          }
-      
-          // Optional: Email format validation
-          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-          if (!emailPattern.test(email)) {
-            alert("Please enter a valid email address.");
-            return;
-          }
-      
-          // Simulate form submission (replace this with a real API call)
-          alert("Thank you for reaching out, " + name + "! I'll get back to you soon.");
-          form.reset(); // Clear form after submission
-        });
-      });    
-}
-
-
-
-
-
-
-
-// Call the functions to initialize them
-Rerite_text();
-navbar_active();
-FormHandller();
->>>>>>> 2cf81970c92807afd11d7df90e36e99c173a58ce

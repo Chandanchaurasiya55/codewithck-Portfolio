@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.netlify/
+
+Sitemap: https://codewithck.me/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for respectful crawling
+Request-rate: 1 request per 1 second
+
+# Protect sensitive files
+Disallow: /*.json$
+Disallow: /*.config.js$
